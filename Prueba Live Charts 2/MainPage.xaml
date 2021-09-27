@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Prueba_Live_Charts_2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Prueba_Live_Charts_2"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <ContentControl
+            x:Name="content"
+            HorizontalContentAlignment="Stretch"
+            VerticalContentAlignment="Stretch">
+
+            <ContentControl.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Foreground" Value="Black" />
+                </Style>
+            </ContentControl.Resources>
+
+        </ContentControl>
+    </Grid>
+</Page>
